@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    /* border: 1px solid black; */
+    /* height: 75px; */
+    width: 100%;
+    background: rgb(102,118,138);
+}
+
+.links {
+    /* border: 1px solid black; */
+    /* height: 75px; */
+    width: 33.333%;
+    float: left;
+    background: rgb(102,118,138);
+}
+
+nav li:first-child {
+    margin-left: 0%;
+    /* border: 1px solid white; */
+}
+
+ ul li {
+    list-style: none;
+    /* height: 50px; */
+    width: 20%;
+    float: left;
+    /* border: 1px solid black; */
+    margin: 0 20px 0 0;
+}
+
+.burger {
+    display: none;
+} 
+
+.logo {
+    /* border: 1px solid black; */
+    width: 33.333%;
+    float: left;
+    background: rgb(102,118,138);
+}
+
+.logo img {
+    width: 10%;
+    /* display: flex; */
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+.donate {
+    /* border: 1px solid black; */
+    /* height: 75px; */
+    width: 33.333%;
+    float: left;
+    background: rgb(102,118,138);
+}
+
+.donate span {
+    background: white;
+    border-radius: 5px;
+    padding: 1%;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+.donate a {
+    color: rgb(102,118,138);
+}
+
+.one {
+    /* border: 1px solid black; */
+    /* height: 300px; */
+    width: 100%;
+    background: rgb(102,118,138);
+
+}
+
+.one h1, .one p {
+    text-align: center;
+}
+
+.fa-regular span {
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.two {
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    width: 100%;
+
+}
+
+.three {
+    /* border: 1px solid black; */
+    /* height: 400px; */
+    width: 100%;
+    background: rgb(219,223,226);
+}
+
+.visitGym span{
+    border: 1px solid black;
+    padding: 1% 4%;
+}
+
+.visitYou span{
+    border: 1px solid black;
+    padding: 1% 4%;
+
+}
+
+.thirdSide {
+    /* border: 1px solid black; */
+    height: 442px;
+    width: 50%;
+    float: left;    
+}
+
+.four {
+    /* border: 1px solid black; */
+    height: 178px;
+    width: 100%;
+
+}
+
+.four span{
+    border: 1px solid black;
+    padding: 1% 4%;
+}
+
+.wholeFooter {
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    width: 100%;
+    background: rgb(22,31,42);
+}
+
+.topFooter {
+    /* border: 1px solid black; */
+    /* height: 150px; */
+    width: 100%;  
+    background: rgb(22,31,42);  
+}
+
+.topLeftFooter {
+    /* border: 1px solid black; */
+    /* height: 150px; */
+    width: 20%; 
+    float: left;
+    background: rgb(22,31,42);
+}
+
+.social {
+    /* border: 1px solid black; */
+    /* height: 50px; */
+    width: 100%;
+    background: rgb(22,31,42);
+}
+
+.siteMap {
+    /* border: 1px solid black; */
+    /* height: 50px; */
+    width: 100%;
+    background: rgb(22,31,42);
+}
+
+.contribute {
+    /* border: 1px solid black; */
+    /* height: 50px; */
+    width: 100%;
+    background: rgb(22,31,42);
+}
+
+.whiteSpace {
+    /* border: 1px solid black; */
+    /* height: 150px; */
+    width: 60%;
+    float: left;
+    background: rgb(22,31,42);
+}
+
+.address {
+    /* border: 1px solid black; */
+    /* height: 150px; */
+    width: 20%;
+    float: left;
+    background: rgb(22,31,42);
+}
+
+.bottomFooter {
+    /* border: 1px solid black; */
+    /* height: 50px; */
+    width: 100%;
+    background: rgb(22,31,42);
+}
+
+.org {
+    /* border: 1px solid black; */
+    /* height: 50px; */
+    width: 80%;
+    float: left;
+    background: rgb(22,31,42);
+}
+
+.footerLogo {
+    /* border: 1px solid black; */
+    /* height: 50px; */
+    width: 20%;
+    float: left;
+    background: rgb(22,31,42);
+
+}
+
+.footerLogo img {
+    width: 10%;
+
+}
+
+.bottomFooter::before {
+    content: " ";
+    display: block;
+    border-bottom: 0.2px solid white;
+    height: 1em;
+    width: 90%;
+    margin: auto;
+}
+
+.org p, .address span, .social i, .contribute a, .siteMap a {
+    color: white;
+}
+
+.address span {
+    text-align: right;
+}
+
+.siteMap span, .contribute span {
+    color: rgb(81,94,112);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .one {
+        background-color: gray;
+      }
+    }
+
+/* added this from lecture for refernece -- this is to remove the nav when the width is 600 or below */
+@media (max-width: 600px) {
+    li:not(.burger) {
+      display: none;
+    }
+    .one {
+        background-color: lightgray;
+      }
+  }
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .burger {
+        display: block;
+        border: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .bottomThird, .top {
+        width: 100%;
+    }
+    .bottom {
+        float: none;
+        width: 100%;
+    }
+    .topLeftFooter {
+        float: none;
+        width: 100%;
+    }
+    .thirdSide {
+        float: none;
+        width: 100%;
+    }
+      .whiteSpace {
+        display: none;
+    }
+    .topLeftFooter {
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+    .footerLogo {
+        float: none;
+        /* clear: both; */
+        width: 100%;
+    }
+    .address {
+        display: none;
+    }
+    .logo {
+        float: none;
+        width: 100%;
+    }
+    .donate {
+        display: none;
+    }
+}
+
+/* once in cell phone mode, text-align center  - */
