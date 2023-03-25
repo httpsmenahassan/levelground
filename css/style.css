@@ -100,11 +100,9 @@ nav li:first-child {
     text-align: center;
 }
 
-.fa-regular span {
+.watch {
     display: block;
-    margin: auto;
     text-align: center;
-    line-height: 100px;
 }
 
 h1 {
