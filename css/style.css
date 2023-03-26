@@ -94,7 +94,7 @@ nav li:first-child {
     /* height: 300px; */
     width: 100%;
     background: rgb(102,118,138);
-
+    padding: 5%;
 }
 
 .one h1, .one p {
@@ -116,6 +116,7 @@ h1 {
     /* border: 1px solid black; */
     /* height: 200px; */
     width: 100%;
+    padding: 5%;
 
 }
 
@@ -128,6 +129,7 @@ h1 {
     /* height: 400px; */
     width: 100%;
     background: rgb(219,223,226);
+    padding: 3%;
 }
 
 .visitYou, .visitGym {
@@ -147,16 +149,16 @@ h1 {
 
 .thirdSide {
     /* border: 1px solid black; */
-    height: 442px;
+    /* height: 442px; */
     width: 50%;
     float: left;    
 }
 
 .four {
     /* border: 1px solid black; */
-    height: 178px;
+    /* height: 178px; */
     width: 100%;
-
+    padding: 5%;
 }
 
 .four span{
