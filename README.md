@@ -1,4 +1,4 @@
-# levelground
+# level-ground
 
 Responsive website for Level Ground, a mixed martial arts gym in Boston. 
 
