@@ -12,4 +12,4 @@ I started by creating a basic box outline for the page. From there, I added imag
 # Lessons Learned:
 I had fun playing around with the different window sizes when creating media queries.
 
-<img src="level-ground.jpg" alt="screenshot of top of Level Ground website page">
+<img src="level-ground.JPG" alt="screenshot of top of Level Ground website page">
